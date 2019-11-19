@@ -1,0 +1,353 @@
+body {
+  width: 100%;
+  margin: 0;
+
+}
+
+html {
+  margin: 0;
+}
+
+h1,
+h2,
+h4 {
+  margin: 0;
+  color: #2a3a7f;
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto',
+    sans-serif;
+  color: #2a3a7f;
+  ;
+
+}
+
+p,
+li {
+  font-family: 'Montserrat',
+    sans-serif;
+
+}
+
+
+.date {
+  display: inline-flex;
+}
+
+.discriptionApp {
+  margin-top: 20px;
+  font-family: 'Roboto',
+    sans-serif;
+  ;
+}
+
+.Container {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex
+}
+
+/*header*/
+#sarah {
+  height: 150px;
+  border-radius: 100%;
+  border: 5px solid white;
+  border-radius: 180%;
+}
+
+.sarah img {
+  display: inline-flex;
+  float: right;
+}
+
+
+#coloredPencils {
+  width: 100%;
+  /* height: 350px; */
+  position: relative;
+  z-index: -10;
+  display: flex;
+  float: left;
+}
+
+.aboutMe {
+  display: flow-root;
+  float: left;
+  position: relative;
+  right: 250px;
+}
+
+.aboutMeText {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+}
+
+.topIcons {
+  display: inline-flex;
+  height: 60px;
+  position: relative;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+
+.fab {
+  color: white;
+}
+
+
+.btn {
+
+  width: 39px;
+  height: 39px;
+  display: inline-block;
+  border-radius: 42px;
+  border: 2px solid #FA382F;
+  opacity: 1;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 4px;
+  background: scroll;
+
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+
+
+
+/*text*/
+.introText {
+  background: #F4F4F4;
+  padding: 30px;
+  text-align: center;
+  height: 300px;
+  text-align: left;
+  font-size: 20px;
+
+}
+
+
+
+.mythoughts {
+  background: #FA382F;
+  text-align: center;
+  font: Bold 22px/27px Montserrat;
+  color: #FFFFFF;
+  display: block;
+  width: 250px;
+  margin-left: 55px;
+}
+
+.tech {
+  background: #FA382F;
+  text-align: center;
+  font: Bold 22px/27px Montserrat;
+  color: #FFFFFF;
+  display: block;
+  width: 150px;
+  margin-left: 30%;
+
+}
+
+.titleForMore {
+  background: #FA382F;
+  text-align: center;
+  font: Bold 22px/27px Montserrat;
+  color: #FFFFFF;
+  display: block;
+  width: 150px;
+  margin-left: 30%;
+  margin-top: 30px;
+
+}
+
+
+.featuredProjectCont {
+  /*background: #F4826B;*/
+  background: ;
+  text-align: center;
+  font: Bold 22px/27px Montserrat;
+  color: #FFFFFF;
+  display: block;
+  margin: 35px;
+}
+
+
+
+.techText {
+  padding: 24px;
+  text-align: center;
+  height: 200px;
+  text-align: center;
+  margin-top: 30%;
+  font-size: 20px;
+}
+
+.tech {
+  margin-top: 30px;
+}
+
+#demoPic {
+  width: 100%;
+}
+
+.codes {
+  display: flex;
+  margin: 10px;
+}
+
+.css,
+.html {
+  background: #FDDFE7;
+  text-align: center;
+  width: 74px;
+  height: 17px;
+  color: wheat;
+  text-align: center;
+  letter-spacing: 0;
+  color: #2B2E34;
+  font-size: 10px;
+  margin-right: 5px;
+
+}
+
+.Javascript {
+  background: #FDDFE7;
+  text-align: center;
+  width: 74px;
+  height: 17px;
+  color: wheat;
+  text-align: center;
+  letter-spacing: 0;
+  color: #2B2E34;
+  font-size: 10px;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  height: 340px;
+  padding: 30px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 20px;
+}
+
+#articlePic {
+  margin: 35px;
+  width: 303px;
+  height: 179px;
+}
+
+.articleText {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.projectPic img {
+  width: 100%;
+}
+
+
+
+.outerContainer {
+  width: 100%
+}
+
+.articlePic {
+  width: 100%;
+  margin: 40px;
+}
+
+
+.Container1 {
+  text-align: -webkit-center;
+
+}
+
+.Container2 {
+  text-align: -webkit-center;
+  background: #F4F4F4;
+}
+
+.project2,
+.project,
+.otherProjects,
+.otherthoughts,
+.article {
+  margin: 30px;
+}
+
+
+.otherProjects,
+h2 {
+  margin: 30px;
+  text-align: center;
+}
+
+.app1 {
+  margin-top: 30px;
+}
+
+.code ul,
+.toolbox ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 35px;
+  text-align: center;
+}
+
+.upcoming ul,
+.more ul {
+  list-style: none;
+  padding: 0;
+
+  text-align: center;
+
+}
+
+.upcoming {
+  margin-left: 35px;
+}
+
+.skills h4 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  height: 270px;
+  text-align: center;
+  background: #2a3a7f;
+  color: white;
+
+}
+
+footer h2 {
+  color: #FFFFFF;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
