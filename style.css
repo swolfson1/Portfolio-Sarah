@@ -21,7 +21,7 @@ h3 {
   font-family: 'Roboto',
     sans-serif;
   color: #2a3a7f;
-  ;
+  
 
 }
 
@@ -170,7 +170,7 @@ header {
   color: #FFFFFF;
   display: block;
   width: 150px;
-  margin-left: 30%;
+  margin-left: 30%; 
 
 }
 
@@ -181,7 +181,7 @@ header {
   color: #FFFFFF;
   display: block;
   width: 150px;
-  margin-left: 30%;
+   margin-left: 30%;
   margin-top: 30px;
 
 }
@@ -330,7 +330,6 @@ h2 {
 .more ul {
   list-style: none;
   padding: 0;
-
   text-align: center;
 
 }
@@ -376,7 +375,6 @@ footer p {
 
   .tech {
     font: 28px Montserrat;
-    margin-left: 20px;
     width: 350px;
     height: 40px;
 
@@ -489,8 +487,69 @@ footer p {
 
 }
 
-@media (min-width: 768px){
-  #coloredPencils{
-    height: 35vh;
+@media (min-width: 668px){ /* change so can go up to 778px forgot the stytax*/
+  .aboutMe h1{
+    font-size: 50px;
   }
+
+  .aboutMeText h4, h3{
+    font-size: 25px;
+    margin: 0;
+
+  }
+
+  .aboutMeText{
+    top: 150px;
+
+  }
+
+  .introText{
+    padding:60px;
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 25px;
+  }
+  .mythoughts, 
+  .featuredProjectCont,
+  .titleForMore {
+  margin-left: 30%;
+}
+.icons{
+  margin-left: 10%;
+}
+.code ul,
+.toolbox ul {
+ 
+  margin-right: 0
+  
+}
+}
+@media (min-width: 778px){
+
+  /*header*/
+  .sarah{
+    top: 290px;
+    padding-right: 15%;
+    right: 35px;
+  }
+  #sarah{
+    height: 350px;
+  }
+  .topIcons{
+    right: 35px;
+}
+  }
+  .btn{
+    width: 79px;
+    height: 79px;
+  }
+  .Imgbtn{
+    width: 60%;
+  }
+
+  .introText{
+    font-size: 35px;
+  }
+  /*tech*/
+  
 }
