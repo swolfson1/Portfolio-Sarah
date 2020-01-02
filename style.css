@@ -21,7 +21,6 @@ h3 {
   font-family: 'Roboto',
     sans-serif;
   color: #2a3a7f;
-  
 
 }
 
@@ -32,6 +31,12 @@ li {
 
 }
 
+.line{
+
+  color: #b1597f;
+  font-weight: 900;
+}
+}
 
 .date {
   display: inline-flex;
@@ -61,11 +66,13 @@ header {
   border-radius: 180%;
   display: inline-flex;
   float: right;
+ 
 }
 
 
 
 #coloredPencils {
+  object-fit: cover;
   width: 100%;
   position: relative;
   z-index: -10;
@@ -74,8 +81,6 @@ header {
 }
 
 .aboutMe {
-  display: flow-root;
-  float: left;
   position: relative;
   right: 250px;
 }
@@ -83,11 +88,12 @@ header {
 .aboutMeText {
   position: relative;
   right: 100px;
+  display: block;
 }
 
 .topIcons {
   display: inline-flex;
-  height: 60px;
+  height: 80px;
   position: relative;
   margin-left: 100px;
   margin-top: 50px;
@@ -134,7 +140,7 @@ header {
 
 .sarah {
   position: relative;
-  top: 40px;
+  top: 13vh;
 }
 
 
@@ -147,6 +153,7 @@ header {
   height: 300px;
   text-align: left;
   font-size: 20px;
+  margin: 20px;
 
 }
 
@@ -157,43 +164,23 @@ header {
   text-align: center;
   font: Bold 22px/27px Montserrat;
   color: #FFFFFF;
-  display: block;
+  display: inline-block;
   width: 250px;
   margin-left: 55px;
   margin-top: 100px;
 }
 
-.tech {
+.block {
   background: #FA382F;
   text-align: center;
   font: Bold 22px/27px Montserrat;
   color: #FFFFFF;
   display: block;
   width: 150px;
-  margin-left: 30%; 
+ margin-left: auto;
+  margin-right: auto;
+  padding: 10px; 
 
-}
-
-.titleForMore {
-  background: #FA382F;
-  text-align: center;
-  font: Bold 22px/27px Montserrat;
-  color: #FFFFFF;
-  display: block;
-  width: 150px;
-   margin-left: 30%;
-  margin-top: 30px;
-
-}
-
-
-.featuredProjectCont {
-  background: #FA382F;
-  text-align: center;
-  font: Bold 22px/27px Montserrat;
-  color: #FFFFFF;
-  display: block;
-  margin: 35px;
 }
 
 
@@ -206,7 +193,7 @@ header {
   font-size: 20px;
 }
 
-.tech {
+.block {
   margin-top: 30px;
 }
 
@@ -252,20 +239,21 @@ header {
   flex-wrap: wrap;
   background: #f4f4f4 0% 0% no-repeat padding-box;
   height: 340px;
-  padding: 30px;
+ padding: 8vw;
 }
 
 .skills {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-left: 20px;
+  justify-content: space-between;
+  text-align-last: left;
 }
 
 #articlePic {
   margin: 35px;
-  width: 303px;
-  height: 179px;
+
+  height: 200px;
 }
 
 .articleText {
@@ -274,9 +262,11 @@ header {
 }
 
 .projectPic img {
-  width: 100%;
-}
 
+    height: 50%;
+    height: 250px;
+    object-fit: cover;
+}
 
 
 .outerContainer {
@@ -294,23 +284,16 @@ header {
 
 }
 
-.Container2 {
-  text-align: -webkit-center;
-  background: #F4F4F4;
+.container2 {
+ 
+    padding-top: 30px;
 }
 
-.project2,
-.project,
-.otherProjects,
-.otherthoughts,
-.article {
-  margin: 30px;
-}
 
 
 .otherProjects,
 h2 {
-  margin: 30px;
+ 
   text-align: center;
 }
 
@@ -334,9 +317,7 @@ h2 {
 
 }
 
-.upcoming {
-  margin-left: 35px;
-}
+
 
 .skills h4 {
   text-align: center;
@@ -361,195 +342,187 @@ footer p {
   margin: 0;
 }
 
-
-@media (min-width: 768px) {
-
-  .introText {
-    padding: 70px;
-    margin-top: 0;
-  }
-
-  .techText {
-    padding: 70px;
-  }
-
-  .tech {
-    font: 28px Montserrat;
-    width: 350px;
-    height: 40px;
-
-  }
-
-  .titleForMore {
-    font: 28px Montserrat;
-    margin-left: 20px;
-    width: 350px;
-    height: 40px;
-
-
-  }
-
-  .mythoughts {
-    font: 28px Montserrat;
-    margin-left: 20px;
-    width: 350px;
-    height: 40px;
-
-  }
-
-  .featuredProjectCont {
-    background: #FA382F;
-    text-align: center;
-    font: 28px Montserrat;
-    color: #FFFFFF;
-    display: inline-block;
-    margin: 35px;
-    width: 350px;
-    height: 40px;
-  }
-
-  .Container2 {
-    display: flex;
-    flex-flow: row wrap;
-
-  }
-
-  .project {
-    display: flex;
-    flex-flow: row wrap;
-    width: 45%;
-    padding-left: 30px;
-
-  }
-
-  .project2 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 45%;
-    padding-right: 30px;
-  }
-
-  .projectLink {
-    font-family: 'Roboto',
-      sans-serif;
-    font-size: 20px;
-  }
-
-  .wrapper {
-    display: flex;
-  }
-
-  .codes {
-    justify-content: center;
-  }
-
-  article {
-    display: flex;
-  }
-
-  .otherthoughts {
-    text-align: center;
-    padding: 30px;
-  }
-
-  .upcoming {
-    margin-right: 20px;
-    margin-left: 0;
-  }
-
-  .skills {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-
-
-  }
-
-  #sarah {
-    height: 250px;
-    border-radius: 100%;
-    border: 5px solid white;
-    border-radius: 180%;
-  }
-
-  .aboutMeText {
-    right: 400px;
-  }
-
-  .topIcons {
-    margin-left: 0;
-  }
-
-  .btn {
-    width: 49px;
-    height: 49px;
-  }
-
+@media screen and (min-width: 650px) {
+header{
+  height: 55vh;
 }
+#sarah{
+  height: 200px;
+}
+.sarah{
+ right: 2vh;
+ top: 8vh;
+}
+.aboutMe{
+     right: 35vw
+}
+   .aboutMeText{
+     float: left;
+    right: 50vw;
+   }
+   
+   .aboutMeText h1{
+     font-size: 55px;
+   }
 
-@media (min-width: 668px){ /* change so can go up to 778px forgot the stytax*/
-  .aboutMe h1{
-    font-size: 50px;
-  }
-
-  .aboutMeText h4, h3{
-    font-size: 25px;
+   .aboutMeText h3{
+     font-weight: bold;
+    font-size: 30px;
     margin: 0;
+   }
 
-  }
+   .aboutMeText h4{
+     font-size: 25px;
+   }
 
-  .aboutMeText{
-    top: 150px;
+   .topIcons {
+    right: 40px;
+        top: 70px;
+   }
 
-  }
+   .btn{
+       width: 69px;
+    height: 69px;
+   }
 
-  .introText{
-    padding:60px;
+   .imgBtn{
+     width: 70%;
+   }
+
+   .introText p{
+     padding: 35px;
+   }
+
+    .introText {
+    height: 20vh;
     padding-top: 5vh;
+    padding: 8vh;
+   }
+
+  
+   .wrapper{
+     display: flex;
+     margin: 20px;
+     justify-content: center;
+     background:#f4f4f4;
+     padding: 40px;
+     
+   }
+   .project2{
+     margin-left: 20px;
+   }
+
+   .otherProjects{
+     align-content: center; 
+    text-align: left;
+    padding: 20px;
+    background:#f4f4f4;
+        margin: 20px;
+   }
+
+   .skillsContainer{
+     margin: 20px;
+   }
+
+   article {
+     display: flex;
+   }
+
+   .article{
+     align-self: center;
+   }
+   .otherthoughts{
+         padding: 5vw;
+
+   }
+   .techText{
+     padding: 8vh;
+   }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+
+.otherthoughts{
+  padding: 8vw;
+  justify-content: center;
+  align-content: center;
+}
+.sarah{
+top: 0;
+}
+#sarah{
+  height: 250px;
+}
+
+.aboutMeText{
+  right: 40vw;
+}
+
+.introText p {
+    padding: 100px;
+    width: 1000px;
+    margin: auto;
     text-align: center;
-    font-size: 25px;
-  }
-  .mythoughts, 
-  .featuredProjectCont,
-  .titleForMore {
-  margin-left: 30%;
 }
-.icons{
-  margin-left: 10%;
+
+.techText{
+padding: 50px;
+width: 900px;
+text-align: center;
+margin: auto;
 }
-.code ul,
-.toolbox ul {
- 
-  margin-right: 0
+
+.app1,
+.app2,
+.app3 {
+display: inline-block;
+}
+
+.otherProjects{
+      text-align: center;
+}
+
+article{
+  justify-content: center;
+  display: inline-flex;
+}
+.discription{
+  display: inline-block;
+    margin-left: 30vw;
+    text-decoration: underline;
+}
+
+.linkContainer{
+text-align: center;
+position: relative;
+}
+
+.projectLink {
+    position: absolute; 
+    width: 100%;
+    bottom: 150px; 
+    text-align: center;
+    font-size: xx-large;
+    
   
 }
+.projectLink a{
+color: white;
 }
-@media (min-width: 778px){
 
-  /*header*/
-  .sarah{
-    top: 290px;
-    padding-right: 15%;
-    right: 35px;
-  }
-  #sarah{
-    height: 350px;
-  }
-  .topIcons{
-    right: 35px;
-}
-  }
-  .btn{
-    width: 79px;
-    height: 79px;
-  }
-  .Imgbtn{
-    width: 60%;
-  }
-
-  .introText{
-    font-size: 35px;
-  }
-  /*tech*/
+.projectLink:hover 
+{
+  display: block;
   
+}
+
+.ProjectPic:hover
+{
+opacity: 0.2;
+filter:grayscale(50%);
+}
+
 }
