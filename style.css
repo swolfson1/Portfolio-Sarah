@@ -150,7 +150,7 @@ header {
   background: #F4F4F4;
   padding: 30px;
   text-align: center;
-  height: 300px;
+  height: 350px;
   text-align: left;
   font-size: 20px;
   margin: 20px;
@@ -239,7 +239,7 @@ header {
   flex-wrap: wrap;
   background: #f4f4f4 0% 0% no-repeat padding-box;
   height: 340px;
- padding: 8vw;
+  padding: 60px
 }
 
 .skills {
@@ -445,14 +445,12 @@ header{
 @media screen and (min-width: 1000px) {
 
 
-.otherthoughts{
-  padding: 8vw;
-  justify-content: center;
-  align-content: center;
-}
+
 .sarah{
 top: 0;
+right: 100px;
 }
+
 #sarah{
   height: 250px;
 }
@@ -475,19 +473,55 @@ text-align: center;
 margin: auto;
 }
 
+.otherthoughts{
+  padding: 8vw;
+ display: inline;
+flex-direction: column;
+height: auto;
+width: 900px;
+}
+
+.wrapper{
+  padding: 70px;
+  margin-top: 50px;
+}
+
+
+.app,
 .app1,
 .app2,
-.app3 {
-display: inline-block;
+.app3 
+{
+display: block;
+padding-left: 12vw;
 }
 
-.otherProjects{
-      text-align: center;
-}
 
-article{
+.article, 
+.articleImage
+{
   justify-content: center;
-  display: inline-flex;
+  display: flex;
+}
+ 
+article{
+  display: inline;
+    justify-content: center;
+}
+.articleText{
+  width: 400px;
+  padding-bottom: 50px;  
+
+}
+.otherProjects{
+      padding: 40px 40px 70px;
+}
+
+
+.otherProjects h2{
+  margin: 40px 40px;
+  text-align: center;
+    padding: 40px;
 }
 .discription{
   display: inline-block;
@@ -499,16 +533,27 @@ article{
 text-align: center;
 position: relative;
 }
+.project2{
+  width: 400px;
+  max-width: 1000px;
+}
+
+.ProjectPic img
+{
+height: 300px;
+ opacity: 0.7;
+}
 
 .projectLink {
-    position: absolute; 
+    position: absolute;
     width: 100%;
-    bottom: 150px; 
     text-align: center;
     font-size: xx-large;
-    
+    bottom: 100px;
+    width: 340px;
   
 }
+
 .projectLink a{
 color: white;
 }
@@ -519,10 +564,19 @@ color: white;
   
 }
 
-.ProjectPic:hover
-{
-opacity: 0.2;
-filter:grayscale(50%);
+.skills{
+  justify-content: space-evenly;
+  padding-top: 70px;
+}
+
+.icons{
+  padding: 30px;
+}
+.topIcons{
+  right: 100px;
+}
+.ProjectPic:hover{
+  filter: blur(2px) grayscale(30%);
 }
 
 }
