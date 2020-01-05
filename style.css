@@ -21,7 +21,11 @@ h3 {
   font-family: 'Roboto',
     sans-serif;
   color: #2a3a7f;
+}
 
+h5{
+  font-family: 'Roboto', sans-serif;
+  font: 30px;
 }
 
 p,
@@ -37,17 +41,17 @@ li {
   font-weight: 900;
 }
 
-.line::after {
+/* .line::after {
     content: '';
     height: 10px;
     width: 10px;
     position: relative;
     float: left;
-    top: 8.1px;
-    left: 55px;
+    right: 295px;
+    top: 8.4px;
     border-radius: 50%;
     background: red;
-}
+} */
 
 .date {
   display: inline-flex;
@@ -94,6 +98,7 @@ header {
 .aboutMe {
   position: relative;
   right: 250px;
+  top: 30px;
 }
 
 .aboutMeText {
@@ -155,16 +160,21 @@ header {
 }
 
 
+.introText p{
+  padding: 20px;
+}
+
+
 
 /*text*/
 .introText {
   background: #F4F4F4;
-  padding: 30px;
   text-align: center;
   height: 350px;
   text-align: left;
   font-size: 20px;
   margin: 20px;
+  
 
 }
 
@@ -291,7 +301,7 @@ header {
     object-fit: cover;
     padding-top: 20px;
 }
-}
+
 
 
 .outerContainer {
@@ -303,7 +313,16 @@ header {
   margin: 40px;
 }
 
+.articleImage
+{
+  justify-content: center;
+  display: flex;
+}
 
+.contactInfo h5{
+  margin: 0;
+  font-size: 20px;
+}
 
 .container2 {
  
@@ -316,6 +335,13 @@ header {
 h2 {
  
   text-align: center;
+}
+
+
+.otherthoughts h5{
+  text-align: center;
+  color: #FA382F;
+  font-size: 20px;
 }
 
 .app1 {
@@ -375,7 +401,13 @@ header{
  top: 8vh;
 }
 .aboutMe{
-     right: 35vw
+     right: 44vw;
+}
+
+.introText{
+  display: flex;
+    align-items: center;
+    padding: 30px;
 }
    .aboutMeText{
      float: left;
@@ -410,17 +442,6 @@ header{
      width: 70%;
    }
 
-   .introText p{
-     padding: 35px;
-   }
-
-    .introText {
-    height: 20vh;
-    padding-top: 5vh;
-    padding: 8vh;
-   }
-
-  
    .wrapper{
      display: flex;
      margin: 20px;
@@ -432,6 +453,27 @@ header{
    .project2{
      margin-left: 20px;
    }
+
+   .projectLink {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    bottom: 70px;
+    width: 300px;
+}
+
+
+.projectLink a, h5{
+color: white;
+text-align: center;
+}
+
+.projectLink:hover 
+{
+  display: block;
+  
+}
 
    .otherProjects{
      align-content: center; 
@@ -446,12 +488,10 @@ header{
    }
 
    article {
-     display: flex;
+     display: inline-block;
    }
 
-   .article{
-     align-self: center;
-   }
+  
    .otherthoughts{
          padding: 5vw;
 
@@ -481,10 +521,10 @@ right: 100px;
 }
 
 .introText p {
-    padding: 100px;
-    width: 1000px;
-    margin: auto;
+    
     text-align: center;
+       margin: 0;
+    padding: 100px;
 }
 
 .techText{
@@ -498,8 +538,6 @@ margin: auto;
   padding: 8vw;
  display: inline;
 flex-direction: column;
-height: auto;
-width: 900px;
 }
 
 .wrapper{
@@ -517,17 +555,10 @@ display: block;
 padding-left: 12vw;
 }
 
-
-.article, 
-.articleImage
-{
-  justify-content: center;
-  display: flex;
-}
  
 article{
   display: inline;
-    justify-content: center;
+justify-content: center;    
 }
 .articleText{
   width: 400px;
@@ -565,25 +596,6 @@ height: 300px;
  opacity: 0.7;
 }
 
-.projectLink {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    font-size: xx-large;
-    bottom: 100px;
-    width: 340px;
-  
-}
-
-.projectLink a{
-color: white;
-}
-
-.projectLink:hover 
-{
-  display: block;
-  
-}
 
 .skills{
   justify-content: space-evenly;
@@ -595,9 +607,6 @@ color: white;
 }
 .topIcons{
   right: 100px;
-}
-.ProjectPic:hover{
-  filter: blur(2px) grayscale(30%);
 }
 
 }
