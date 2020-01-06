@@ -287,11 +287,16 @@ header {
 #articlePic {
   padding-top: 20px;
   height: 200px;
+  margin-right: 43px;
 }
 
 .articleText {
   font-family: sans-serif;
   margin: 0;
+}
+
+.articleText p{
+      width: 300px;
 }
 
 .projectPic img {
@@ -319,6 +324,12 @@ header {
 {
   justify-content: center;
   display: flex;
+}
+
+#justLaugh{
+  width: 80vw;
+  height: 200px;
+  object-fit: cover;
 }
 
 .contactInfo h5{
@@ -461,14 +472,15 @@ header{
     width: 100%;
     text-align: center;
     font-size: xx-large;
-    bottom: 70px;
-    width: 300px;
+    top: 144%;
+    right: 22%;
 }
 
 
 .projectLink a, h5{
 color: white;
 text-align: center;
+text-decoration: none;
 }
 
 .projectLink:hover 
@@ -501,6 +513,11 @@ text-align: center;
    .techText{
      padding: 8vh;
    }
+
+   #justLaugh {
+    width: 300px;
+    height: 200px
+  }
 
 }
 
@@ -613,5 +630,10 @@ height: 300px;
 .topIcons{
   right: 20px;
 }
+
+ #justLaugh {
+   margin-right: 45px;
+    padding-top: 20px;
+  }
 
 }
