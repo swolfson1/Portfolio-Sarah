@@ -68,44 +68,64 @@ li {
   width: 100%;
 }
 
-header {
-  width: 100%;
-  display: flex
-}
+
 
 /*header*/
+
+header {
+  width: 100%;
+  display: flex;
+  height: 500px;
+}
+
 #sarah {
-  height: 150px;
   border-radius: 100%;
   border: 5px solid white;
-  border-radius: 180%;
   display: inline-flex;
-  float: right;
+  height: 180px;
  
 }
 
-
+.sarah{
+    position: absolute;
+    top: 45vh;
+    right: 4vw;
+}
 
 #coloredPencils {
   object-fit: cover;
   width: 100%;
+  height: 500px;
   position: relative;
   z-index: -10;
   display: flex;
-  float: left;
 }
+/*about me/ text*/
 
 .aboutMe {
-  position: relative;
-  right: 250px;
-  top: 30px;
+  position: absolute;
+  right: 0;
 }
 
 .aboutMeText {
-  position: relative;
-  right: 100px;
-  display: block;
+  position: absolute;
+  width: 100%;
+  right: 24vw;
 }
+   .aboutMeText h1{
+     font-size: 55px;
+   }
+
+   .aboutMeText h3{
+     font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+   }
+
+   .aboutMeText h4{
+     font-size: 25px;
+   }
+
 
 .topIcons {
   display: inline-flex;
@@ -113,6 +133,7 @@ header {
   position: relative;
   margin-left: 100px;
   margin-top: 50px;
+  right: 3vw;
 }
 
 .btn {
@@ -152,11 +173,6 @@ header {
   display: flex;
   justify-content: center;
   margin: 20px;
-}
-
-.sarah {
-  position: relative;
-  top: 13vh;
 }
 
 
@@ -307,9 +323,6 @@ header {
     padding-top: 20px;
 }
 
-.aboutMeText{
-  top: 50px;
-}
 
 .outerContainer {
   width: 100%
@@ -403,47 +416,26 @@ footer p {
 }
 
 @media screen and (min-width: 650px) {
-header{
-  height: 55vh;
-}
-#sarah{
-  height: 200px;
+
+  .aboutMe{
+    right:10vw;
+  }
+
+.aboutMeText{
+  right: 100%;
 }
 .sarah{
- right: 2vh;
- top: 8vh;
+  right: -7vw;
 }
-.aboutMe{
-     right: 44vw;
-}
-
 .introText{
   display: flex;
     align-items: center;
     padding: 30px;
 }
-   .aboutMeText{
-     float: left;
-    right: 50vw;
-   }
-   
-   .aboutMeText h1{
-     font-size: 55px;
-   }
-
-   .aboutMeText h3{
-     font-weight: bold;
-    font-size: 30px;
-    margin: 0;
-   }
-
-   .aboutMeText h4{
-     font-size: 25px;
-   }
-
+  
    .topIcons {
     right: 40px;
-        top: 70px;
+    top: 70px;
    }
 
    .btn{
@@ -524,17 +516,6 @@ text-decoration: none;
 
 @media screen and (min-width: 1000px) {
 
-
-
-.sarah{
-top: 0;
-right: 35px;
-
-}
-
-#sarah{
-  height: 250px;
-}
 
 .aboutMeText{
   right: 40vw;
