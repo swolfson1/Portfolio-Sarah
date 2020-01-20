@@ -6,362 +6,311 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/3519340fa6.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,700,900&display=swap" rel="stylesheet">
-  <title>Sarah Wolfson Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <title>Sarah Wolfson</title>
 </head>
 
 <body>
-
-  <div class="outerContainer">
-    <header>
-
-      <img id="coloredPencils" src="assets/abstract2.jpg" alt="colored pens">
-
-      <div class="aboutMe">
-        <div class=" topIcons">
-          <button class="btn">
-            <a class="imgBtn" href="https://www.linkedin.com/in/sarah-wolfson-735707156/" target="_blank">
-              <img class="icon" src="assets/linkedin.png" alt="linkedin">
-            </a>
-          </button>
-
-          <button class="btn">
-            <a class="imgBtn" href="https://github.com/swolfson1" target="_blank">
-              <img class="icon" src="assets/github.png" alt="Github">
-            </a>
-          </button>
-
-          <button class="btn">
-            <a class="imgBtn" href="https://stackoverflow.com/users/12130293/sarah-wolfson" target="_blank">
-              <img class="icon" src="assets/stackoverflow.png" alt="stackoverflow">
-            </a>
-          </button>
-
-        </div>
-
-        <div class="aboutMeText">
-          <h4> Portfolio: Sarah Maria Wolfson</h4>
-          <h1>Frontend Devloper</h1>
-          <h3>+ Digtal Designer</h3>
-        </div>
-        <div class="sarah">
-          <img id="sarah" src="assets/sarah .jpg" alt="picture of Sarah">
-        </div>
-
-
-    </header>
-
-    <div class="container1">
-      <div class="introText">
-        <p>
-          <span class="line">––––</span> A creative minded Frontend Developer + Digital Designer with a Background
-          in the Culinary Arts and
-          Design.
-          Among other of my experiences I’ve worked as a chef, farmer, and food stylist.
-          I’m passionate about solving problems that matter and creating a engaging and creative solutions for products
-          that
-          people love!
-        </p>
+  <header>
+    <div class="header-wrapper">
+      <div class="social-links-btn">
+        <a class="social-links" tabindex="0" role="button" aria-pressed="false"
+          href="https://www.linkedin.com/in/sarah-wolfson-735707156/">
+          <div class="btn"><img class="btn-img" src="assets/linkedin.png" alt="LinkedIn"></div>
+        </a>
+        <a class="social-links" tabindex="0" role="button" aria-pressed="false" href="https://github.com/swolfson1">
+          <div class="btn"><img class="btn-img" src="assets/github.png" alt="GitHub"></div>
+        </a>
+        <a class="social-links" tabindex="0" role="button" aria-pressed="false"
+          href="https://stackoverflow.com/users/12130293/sarah-wolfson">
+          <div class="btn"><img class="btn-img" src="assets/stackoverflow.png" alt="StackOverflow">
+          </div>
+        </a>
+      </div>
+      <div class="header-info">
+        <h4>Portfolio: <span class="highlight">Sarah Wolfson</span></h4>
+        <h1>Frontend developer</h1>
       </div>
 
-      <div class="block">TECH</div>
-      <div class="techText">
-        <p>
-          HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks,
-          Redux, Node.js, Web Accessibly, API:s,
-          mob-programming, pair-programming, Github.
-        </p>
-      </div>
+      <figure>
+        <img class="profile-pic" src="assets/sarah .jpg" alt="profile picture">
+      </figure>
     </div>
+  </header>
+  <div class="wrapper-grey">
+    <section class="summary">
+      <p><span class="line-dot"></span>A creative thinking Frontend Developer with experiences in design and technology
+        with a love for Javascript, React,
+        React Native and Ruby.
+        I have spent the last year discovering the latest technologies and tools within Full-stack Development. I
+        started this
+        journey by diving into backend development and have now transitioned to Frontend development where I feel most
+        home.
+        I strive to constantly grow while solving problems that matter and creating engaging solutions for products that
+        people
+        love!
+      </p>
+    </section>
+  </div>
+  <div class="wrapper-white">
+    <section class="tech">
+      <h2>TECH</h2>
+      <p>HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks,
+        Redux, Node.js, React,Ruby,Ruby on Rails, Web Accessibly, API:s,
+        mob-programming, pair-programming, Github.</p>
+    </section>
+  </div>
 
+  <div class="wrapper-grey">
+    <section class="featured-projects">
+      <h2 class="">FEATURED PROJECTS</h2>
 
-    <div class="container2">
-      <div class="block"> FEATURED PROJECTS</div>
-      <div class="wrapper">
-        <div class="project2">
-
-          <div class="projectPic">
-            <img class="ProjectPic" src="assets/React-Movie-Project.png" alt="project picture">
-            <div class="linkContainer">
-              <div class="projectLink">
-                <a href="https://github.com/swolfson1/project-11-happy-thoughts">
-                  <h5>HAPPY THOUGHT</h5>
-                </a>
-              </div>
-            </div>
-
+      <!--todo-->
+      <div class="projects">
+        <a class="project-card" href="https://github.com/swolfson1/project-13-react-native-app">
+          <div class="project-card-title">React Native to-do app</div>
+          <div class="project-card-img" id="todo">
           </div>
+          <div class=" project-card-text"><span class="text-h">React Native to-do app </span>
+            A React Native todo list with the ablity to add delete and update todos.<span class="text-h">
+              >></span>
+          </div>
+          <div class="project-tags">
+            <div class="tag">JavaScript</div>
+            <div class="tag">Styled compponets</div>
+            <div class="tag">React Native</div>
+          </div>
+        </a>
+        <!--to do -->
 
-          <div class="discriptionApp">
-            <h4 class="date">HAPPY THOUGHT</h4>
-
+        <!--Happy thought-->
+        <a class="project-card" href="https://github.com/swolfson1/project-11-happy-thoughts">
+          <div class="project-card-title">Happy Thoughts</div>
+          <div class="project-card-img" id="happy-thought">
+          </div>
+          <div class="project-card-text"><span class="text-h">Happy thoughts</span>
             A Twitter inspired application where users can post and like comments.
-            <a href="https://swolfson-happy-thought.netlify.com">>></a>
-          </div>
-
-          <div class="codes">
+            <span class="text-h"> >></span></div>
+          <div class="project-tags">
             <div class="tag">CSS3</div>
             <div class="tag">HTML5</div>
             <div class="tag">React</div>
             <div class="tag">Moment.JS</div>
           </div>
-        </div>
+        </a>
+        <!--Happy thought end-->
 
-
-
-        <div class="project2">
-          <div class="projectPic">
-            <img class="ProjectPic" src="assets/React-Movie-Project.png" alt="project picture">
-          </div>
-          <div class="linkContainer">
-            <div class="projectLink">
-              <a href="https://github.com/swolfson1/project-12-React-Movie">
-                <h5>MOVIE REVIEW </h5>
-              </a>
+        <!--music site-->
+        <a class="project-card" href="https://github.com/swolfson1/project-9-music-releases">
+          <div class="project-card-title">Music release/div>
+            <div class="project-card-img" id="music-site">
             </div>
+            <div class="project-card-text"><span class="text-h">Music release</span>
+              A React music Release page styled to look like Spoyify. The page shows the latest music releases fetched
+              form music API.
+              <span class="text-h"> >></span></div>
+            <div class="project-tags">
+              <div class="tag">CSS3</div>
+              <div class="tag">HTML5</div>
+              <div class="tag">JavaScript</div>
+              <div class="tag"> React</div>
+              <div class="tag"> API</div>
+            </div>
+        </a>
+        <!--music site end -->
+
+
+        <!-- movie site-->
+        <a class="project-card" href="https://github.com/swolfson1/project-12-React-Movie">
+          <div class="project-card-title">movie release</div>
+          <div class="project-card-img" id="movie-site">
           </div>
-
-          <div class="discriptionApp">
-            <h4 class="date">MOVIE REVIEW</h4>
-
+          <div class="project-card-text"><span class="text-h">movie Release</span>
             A React movie review site showing the latest reviews and rating fetched from a Movie API.
-            <a href="https://swolfson-project-movie.netlify.com">>></a>
-          </div>
-
-          <div class="codes">
-            <div class="tag">CSS3</div>
-            <div class="tag">HTML5</div>
-            <div class="tag">JavaScript </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="otherProjects">
-        <h2>OTHER PROJECTS</h2>
-
-        <Div class="app">
-
-          <div class="discriptionApp">
-            <span>
-              <h4>MUSIC RELEASE</h4>
-            </span>
-            A web application built with React. The application displays a list of current realeased music
-            with dates and name of album.
-            <a href="https://github.com/swolfson1/project-9-music-releases">>></a>
-          </div>
-
-          <div class="codes">
-
+            <span class="text-h"> >></span></div>
+          <div class="project-tags">
             <div class="tag">CSS3</div>
             <div class="tag">HTML5</div>
             <div class="tag">JavaScript</div>
-            <div class="tag"> React</div>
-            <div class="tag"> API</div>
+            <div class="tag">API</div>
           </div>
-        </div>
-
-
-        <Div class="app1">
-
-          <div class="discriptionApp">
-            <span>
-              <h4>WEATHER APP.</h4>
-            </span>
-            A web application built with Javascript using a open weather
-            API to display the current weather as well as a hourly report.
-            <a href="https://github.com/swolfson1/project-6-Weather-app">>></a>
-          </div>
-
-          <div class="codes">
-
-            <div class="tag">CSS3</div>
-            <div class="tag">HTML5</div>
-            <div class="tag">JavaScript</div>
-            <div class="tag"> API </div>
-          </div>
-        </div>
-
-
-
-
-        <div class="app2">
-
-          <div class="discriptionApp">
-            <span>
-              <h4>PIZZABOT</h4>
-            </span>
-            Web app build in Javascript using open weather API
-            <a href="https://github.com/swolfson1/project-4-Pizzabot">>></a>
-          </div>
-
-          <div class="codes">
-            <div class="tag">CSS3</div>
-            <div class="tag">HTML</div>
-            <div class="tag">JavaScript</div>
-          </div>
-        </Div>
-
-        <div class="app3">
-          <div class="discriptionApp">
-            <span>
-              <h4>CLUE MYSTERY RANDOMIZER GAME</h4>
-            </span>
-            A game of chance built with javascript! reveal a randomized card to show a killer,
-            a weapon, and a room.
-            <a href="https://www.w3schools.com/html/">>></a>
-          </div>
-          <div class="codes">
-            <div class="tag">CSS3</div>
-            <div class="tag">HTML</div>
-            <div class="tag">JavaScript</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="block">MY THOUGHTS</div>
-
-    <Article>
-
-      <div class="article">
-
-        <div class="articleText">
-          <div class="articleImage">
-            <img id="articlePic" src="assets/sause.png" alt="cooking">
-          </div>
-          <h4>NOV 2019</h4>
-          <strong>THE CODE BEHIND MY GRANDMOTHER'S SAUCE.</strong>
-          <p>
-            When I started my coding bootcamp journey I spent so much time trying to figure out how Javascript
-            worked. I had a moment one day when I was preparing my grandmother’s bolognese sauce something
-            happened.
-          </p>
-          <a href="https://medium.com/@swolfson23/the-code-behind-my-grandmothers-sauce-5c4d5aa14f5a">>></a>
-        </div>
-
-        <div class="articleText">
-          <div class="articleImage">
-            <img id="justLaugh" src="assets/buddha.jpg" alt="buddha coding">
-          </div>
-          <h4>JAN 2020</h4>
-          <strong>JUST LAUGH.</strong>
-          <p>
-            When coding gets hard don't forget to laugh. Laugher is our greatest tool to overcome the challenges of our
-            code.
-          </p>
-          <a href="https://www.linkedin.com/pulse/just-laugh-sarah-wolfson/">>></a>
-        </div>
-      </div>
-      <div class="otherthoughts">
-
-        <h2>OTHER THOUGHTS</h2>
-        <h5>
-          More coming soon!
-        </h5>
-
-        <!-- <div class="discription">
-            <H4>OCT 2019</H4>
-            <strong>
-              <p>
-                build in Javascript using open weather API blakgjdsgnbwjep wanrbj agpbkewjrgbvfv
-                nqajfepV
-              </p>
-            </strong>
-            <a href="https://www.w3schools.com/html/">>></a> -->
-    </Article>
-
-
-  </div>
-  </div>
-
-
-  <div id="skillsBlock" class="block">SKILLS</div>
-  <div class="skillsContainer">
-
-    <div class="skills">
-
-      <div class="code">
-
-        <h2>CODE</h2>
-        <ul>
-          <li>HTMl</li>
-          <li>CSS3</li>
-          <li>SASS</li>
-          <li>Github</li>
-          <li>JavaScript ES6</li>
-          <li>Ruby</li>
-          <li>Ruby On Rails</li>
-        </ul>
-      </div>
-
-      <div class="upcoming">
-        <h2>UPCOMING</h2>
-        <ul>
-          <li>React</li>
-          <li>Node.js</li>
-        </ul>
-      </div>
-
-      <div class="toolbox">
-        <h2>TOOLBOX</h2>
-        <ul>
-          <li>Adobe Illustrator</li>
-          <li>Adobe Photoshop</li>
-          <li>Adobe Lightroom</li>
-          <li>Adobe XD</li>
-          <li>Figma</li>
-        </ul>
-      </div>
-
-      <div class="more">
-        <h2>MORE</h2>
-        <ul>
-          <li>Graphic Design</li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="forMore">
-    <div class="block">FOR MORE</div>
-
-    <div class="icons">
-
-      <button class="btn1">
-
-        <a class="imgBtn" href="https://www.linkedin.com/in/sarah-wolfson-735707156/" target="_blank">
-          <img class="icon" src="assets/linkedin.png" alt="linkedin">
         </a>
-      </button>
+        <!--movie site end -->
 
-      <button class="btn1">
-        <a class="imgBtn" href="https://github.com/swolfson1" target="_blank">
-          <img class="icon" src="assets/github.png" alt="Github">
-        </a>
-      </button>
+      </div>
+    </section>
 
-      <button class="btn1">
-        <a class="imgBtn" href="https://stackoverflow.com/users/12130293/sarah-wolfson" target="_blank">
-          <img class="icon" src="assets/stackoverflow.png" alt="stackoverflow">
-        </a>
-      </button>
+    <!--other projects -->
+    <section class="other-projects">
+      <h3>OTHER PROJECTS</h3>
 
+      <!--Daily weather app -->
+      <a class="other-project-card" href="https://github.com/swolfson1/project-6-Weather-app">
+        <div class="project-card-text"><span class="text-h">WEATHER APP</span> A weather app that shows
+          current weather and hourly report. Weather infromation is fetched from a API.
+          <span class="text-h"> >></span>
+        </div>
+        <div class="project-tags">
+          <div class="tag">HTML5</div>
+          <div class="tag">CSS3</div>
+          <div class="tag">JavaScript ES6</div>
+          <div class="tag">API</div>
+        </div>
+      </a>
+      <!--daily weather app end -->
+
+      <!--Unicorn SURVEY -->
+      <a class="other-project-card" href="https://github.com/swolfson1/project-5-cluedo">
+        <div class="project-card-text"><span class="text-h">UNICORN SURVEY</span> A unicorn Survey based on user
+          input using React.
+          >></span>
+        </div>
+        <div class="project-card-tags">
+          <div class="tag">HTML5</div>
+          <div class="tag">CSS3</div>
+          <div class="tag">React</div>
+        </div>
+      </a>
+      <!--Unicorn SURVEY end -->
+
+      <!--pizza bot -->
+      <a class="other-project-card" href="https://github.com/swolfson1/project-4-Pizzabot">
+        <div class="project-card-text"><span class="text-h">PIZZA BOT</span>
+          a pair programming project were we created a text-based bot using
+          JavaScript. The bot allows users to order a pizza and on summary it shows chosen pizza and expected delivery
+          time.
+          <span class="text-h"> >></span></div>
+        <div class="project-card-tags">
+          <div class="tag">HTML5</div>
+          <div class="tag">CSS3</div>
+          <div class="tag">JavaScript ES6</div>
+        </div>
+      </a>
+      <!--pizza bot end -->
+    </section>
+    <!--other projects ends -->
+
+
+    <!-- THhoughts -->
+    <div class="wrapper-white">
+      <section class="my-thoughts">
+        <h2>MY THOUGHTS ABOUT CODE</h2>
+        <div class="thoughts-flex">
+          <a class="thought-card" href="https://www.linkedin.com/pulse/just-laugh-sarah-wolfson/">
+            <div class="thought-card-img" id="buddha"></div>
+            <p> January 2020</p>
+            <div class="thought-headline">Just Laugh. It makes coding easier!</div>
+            <div class="thought-card-text">I have always learned when I am faced with adversity I laugh.
+              People have confused my laughter with humor but I am not
+              sure that’s what it is, i have used this expression as therapy, especially with coding!<span
+                class="text-h">
+                >></span></div>
+          </a>
+          <a class="thought-card"
+            href="https://medium.com/@swolfson23/the-code-behind-my-grandmothers-sauce-5c4d5aa14f5a">
+            <div class="thought-card-img" id="sause"></div>
+            <p>November 2019</p>
+            <div class="thought-headline">The code behind my grandmother’s sauce</div>
+            <div class="thought-card-text"> When I started my coding bootcamp journey a few months ago,
+              I spent so much time trying to figure out how Javascript
+              worked. I had a moment one day when I was preparing
+              my grandmother’s bolognese sauce something happened. <span class="text-h"> >></span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="more-thoughts">
+        <h3>MORE THOUGHTS</h3>
+        <a class="more-thoughts-card" <span class="text-h">MORE COMING SOON!</span>
     </div>
+    </a>
+    </section>
   </div>
+
+  <!-- SKills  -->
+  <div class="wrapper-grey">
+    <section class="skills">
+      <h2>SKILLS</h2>
+      <div class="skill-box-outer">
+        <div class="skill-box-inner-left">
+          <h4>Code</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript ES6</li>
+            <li>React</li>
+            <li>GitHub</li>
+            <li>Redux</li>
+            <li>Node.js</li>
+            <li>Ruby</li>
+            <li>Ruby On Rails</li>
+          </ul>
+
+        </div>
+        <div class="skill-box-inner-right">
+          <div class="skill-box">
+            <h4>Toolbox</h4>
+            <ul>
+              <li>Adobe Illustrator</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Lightroom</li>
+              <li>Adobe XD</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="skill-box">
+            <h4>More</h4>
+            <ul>
+              <li>Graphic design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- MORE -->
+  <div class="wrapper-white">
+    <section class="more">
+      <h2>FOR MORE</h2>
+      <div class="more-links-wrapper">
+        <a class="more-links" tabindex="0" role="button" aria-pressed="false"
+          href="https://www.linkedin.com/in/sarah-wolfson-735707156/">
+          <div class="btn-more"><img class="btn-more-img" src="assets/linkedin.png" alt="LinkedIn">
+          </div>
+          <p>LinkedIn</p>
+        </a>
+        <a class="more-links" tabindex="0" role="button" aria-pressed="false" href="https://github.com/swolfson1">
+          <div class="btn-more"><img class="btn-more-img" src="assets/github.png" alt="GitHub">
+          </div>
+          <p>GitHub</p>
+        </a>
+        <a class="more-links" tabindex="0" role="button" aria-pressed="false"
+          href="https://stackoverflow.com/users/12130293/sarah-wolfson">
+          <div class="btn-more"><img class="btn-more-img" src="assets/stackoverflow.png" alt="StackOverflow">
+          </div>
+          <p>StackOverflow</p>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  </main>
 
   <footer>
-    <div class="contactInfo">
-      <h2>CONTACT</h2>
-      <h5>Sarah Maria Wolfson</h5>
-      <p>+46 (0) 72 518 19 80</p>
-      <p>Swolfson23@gmail.com</p>
-    </div>
+    <h3>Contact me:</h3>
+    <h4>Sarah Wolfson</h4>
+    <p>+46 072 518 19 80</p>
+    <p><a class="email" href="mailto:swolfson23@gmail.com">Swolfson23@gmail.com</a></p>
+
   </footer>
+
+
+
+
+
 
 </body>
 
