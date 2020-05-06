@@ -235,11 +235,11 @@ main {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 19px;
   color: #000;
   position: absolute;
   align-self: center;
-  top: 25%;
+  top: 35%;
 }
 
 .project-card-img {
