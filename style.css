@@ -212,12 +212,12 @@ main {
   background: red;
 }
 
-.projects {
+/* .projects {
   display: grid;
   grid-template-columns: 50fr;
   grid-template-rows: auto;
   grid-gap: 50px;
-}
+} */
 
 .project-card {
   display: flex;
@@ -226,6 +226,9 @@ main {
   text-align: left;
   width: 100%;
   margin-bottom: 20px;
+}
+.project-card-img {
+  background-color: yellow;
 }
 
 .project-card-title {
@@ -246,23 +249,24 @@ main {
   width: 100%;
   height: 180px;
 }
+#happy-thought:hover {
+  background-color: turquoise;
+}
 
 #happy-thought {
   background-image: url(assets/HappyThought.png);
 }
-#todo {
+#todoRedux {
   background-image: url(assets/todo.jpg);
   background-position: center top;
 }
 
-#music-site {
-  background-image: url(assets/screenshot\2020-01-15\at\21.21.47.png);
-  opacity: 0.5;
+#finalProject {
+  background-image: url(assets/final-project.jpg);
 }
 
-#movie-site {
-  background-image: url(assets/React-Movie-Project.png);
-  opacity: 0.5;
+#projectNutrition {
+  background-image: url(assets/projecthealth.png);
 }
 
 #buddha {
@@ -271,10 +275,6 @@ main {
 
 #sause {
   background-image: url(assets/sause.png);
-}
-
-#todoRedux {
-  background-image: url(assets/todoRedux.png);
 }
 
 .more-thoughts-card {
@@ -532,9 +532,10 @@ footer p {
   }
   .projects {
     display: grid;
-    grid-template-columns: 50fr 50fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto auto;
-    grid-gap: 100px;
+    grid-gap: 50px;
+    justify-content: center;
   }
   .thoughts-flex {
     display: flex;
